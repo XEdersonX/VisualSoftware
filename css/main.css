@@ -400,10 +400,28 @@ h2 {
   background-repeat: no-repeat;
 }
 
+#suporte {
+  background-color: #0880a3;
+  background-position: 50% 0;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+#download {
+  background-color: #559ba3;
+  background-position: 50% 0;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
 .guitar {
-  position: absolute;
+  position: static;
   right:0;
-  top: 0
+  top: 0;
+  margin-top: 25%;
+
 }
 
 
@@ -762,5 +780,36 @@ h2 {
 #footer a:hover {
   color:#1B7B98
 }
+
+
+
+/*********  SUPORTE ********/
+
+a { color: #444e67; }
+a:hover { color: #48cfad; }
+p { line-height: 22px }
+
+.faq-square { margin: 40px 0 20px }
+
+.icon-wrap {
+  font-size: 2em;
+  height: 60px;
+  width: 60px;
+  float: left;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  margin-right: 30px;
+}
+
+.ico-bg { background: #48cfad }
+
+.round-five {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+
 
 
