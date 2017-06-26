@@ -771,7 +771,7 @@ h2 {
 
 #footer {
   background-color: #212121;
-  background-image: url("../images/footer-bg.jpg");
+  /**background-image: url("../images/footer-bg.jpg");**/
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -781,11 +781,12 @@ h2 {
 }
 
 #footer a {
-  color:#f7ab24
+  /** color:#f7ab24 **/
+  color:#1B7B98
 }
 
 #footer a:hover {
-  color:#1B7B98
+  color:#3096b5
 }
 
 
