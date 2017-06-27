@@ -688,8 +688,9 @@ h2 {
 **************************/
 
 .contact-section {
-  background-color: #f7ab24;
-  background-image: url("../images/contact-bg.jpg");
+  background-color: #559ba3;
+  /*background-color: #f7ab24; */
+  /*background-image: url("../images/contact-bg.jpg");*/
   background-position:60% 0;
   background-size:contain;
   background-repeat:no-repeat;  
