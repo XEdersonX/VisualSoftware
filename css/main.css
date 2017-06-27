@@ -820,5 +820,51 @@ p { line-height: 22px }
 }
 
 
+/************ EFEITO DE BEM VINDO *************/
+
+#texto .table {
+  display: table;
+  height: 100%;
+}
+
+#texto .container {
+  height: 100%;
+}
+
+#texto .header-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+#texto .typed {
+  display: inline-block;
+  margin: 0;
+}
+
+#texto .typed-cursor {
+  font-size: 60px;
+  display: inline-block;
+  margin: 0 10px;
+  color: #00a8ff;
+  -webkit-animation-name: flash;
+  animation-name: flash;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.white {
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
 
 
