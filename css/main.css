@@ -188,7 +188,8 @@ h2 {
 
 #main-slider 
 .carousel-caption {
-  background: none repeat scroll 0 0 #000000;
+  /* background: none repeat scroll 0 0 #000000; */
+  background: none repeat scroll 0 0 #3d3c3c;
   bottom: 14%;
   float: left;
   left: 0;

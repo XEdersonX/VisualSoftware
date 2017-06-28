@@ -9,4 +9,4 @@ function typeWritter(texto,idElemento,tempo){
         document.getElementById(idElemento).innerHTML += next;
     }, tempo);
 }
-typeWritter('Bem Vindo a Visual Software','log',100);
+typeWritter('Bem-Vindo à Visual Software','log',100);
