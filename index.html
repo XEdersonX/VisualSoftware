@@ -412,7 +412,7 @@
 					<h3></h3>
 					<br />
 
-					<div id="event-carousel" class="carousel slide" data-interval="false">
+					<div id="event-carousel" class="carousel slide tempSistema" data-interval="false">
 						<!-- <h2 class="heading">THE ROCKING Performers</h2> -->
 						<h2 class="heading">Alguns de nossos sistemas</h2>
 						<a class="even-control-left" href="#event-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
@@ -538,7 +538,7 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3">
-					<div class="text-center carousel-inner center-block">
+					<div class="text-center carousel-inner center-block tempDepoimentosClientes">
 						<div class="item active">
 							<img src="images/clientes/Bom_Gaucho_Carnes.png" alt="">
 							<p>"Sistema utilizado pela nossa empresa a 15 anos. Sempre atendeu todas nossas expectativas e necessidades."</p>
@@ -1577,9 +1577,14 @@
 			$('[data-toggle="tooltip"]').tooltip()
 			$('[data-toggle="popover"]').popover()
 
-			/* Carousel */
-			$('.carousel').carousel({
-				/* interval: 2000 */
+			/* Carousel dos Sistemas */
+			$('.tempSistema').carousel({
+				interval: 3400
+			})
+
+			/* Carousel dos depoimnentos dos clientes */
+			$('.tempDepoimentosClientes').carousel({
+				interval: 4000
 			})
 		})
 	</script>
