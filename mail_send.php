@@ -18,17 +18,17 @@ function enviaEmail($de, $assunto, $mensagem, $para, $email_servidor) {
     mail($para, $assunto, nl2br($mensagem), $headers);
 }
 
-$email_servidor = "ederson@vsinfo.inf.br"; //Email do Servidor
-$para = "edergp2009@gmail.com"; //Seu Email
+$email_servidor = "visitante@vsinfo.inf.br"; //Email do Servidor
+$para = "comercial@vsinfo.inf.br"; //Seu Email
 
-//Pega os valores
+//Pegar os valores
 $de = pegaValor("email");
 $nome = pegaValor("nome");
 $telefone = pegaValor("telefone");
 $mensagem = pegaValor("mensagem");
 
 $assunto = "Site da Visual Software"; //Assunto da mensagem
-$corpo = '<center><h1>Mensagem do Visitante</h1></center>' . "\n\n" . '<strong>Nome: </strong>' . $nome . "\n\n" . '<strong>Telefone: </strong>' . $telefone . "\n\n" . '<strong>Email: </strong>' . $de . "\n\n" . '<strong>Mensagem: </strong>' . $mensagem;
+$corpo = '<center><h2>Mensagem do Visitante</h2></center>' . "\n\n" . '<strong>Nome: </strong>' . $nome . "\n\n" . '<strong>Telefone: </strong>' . $telefone . "\n\n" . '<strong>Email: </strong>' . $de . "\n\n" . '<strong>Mensagem: </strong>' . $mensagem;
 
 
 if (validaEmail($de) && $mensagem) {
