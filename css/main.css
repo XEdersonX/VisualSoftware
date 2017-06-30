@@ -254,10 +254,9 @@ h2 {
 /*************************
 *******Explore CSS******
 **************************/
-
-#explore {
-  background-color: #C34C39;
-  background-image: url("../images/event-bg.jpg");
+#sistemas {
+  background-color: #0880a3;
+  /**background-image: url("../images/event-bg.jpg"); **/
   background-position: center bottom;
   background-size: contain;
   background-repeat:no-repeat;
@@ -272,7 +271,7 @@ h2 {
   top: 7%;
 }
 
-#explore h2 {
+#sistemas h2 {
   font-size: 42px;
   text-transform: uppercase;
   text-align: center;
@@ -392,7 +391,8 @@ h2 {
  /*************************
 *******Event CSS******
 **************************/
-#sistemas {
+
+#sistemasTeste {
   background-color: #0880a3;
   /* background-image: url("../images/performar-bg.jpg"); */
   background-position: 50% 0;
